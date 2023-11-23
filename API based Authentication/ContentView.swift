@@ -7,6 +7,7 @@
 
 import SwiftUI
 import DeviceCheck
+import AppAuthCore
 
 struct FlowResponse: Codable {
     var flowId: String
@@ -52,15 +53,54 @@ struct Link: Codable {
 enum Screen {
     case initialSignIn
     case authenticators
+    case profile
+}
+
+class AuthService: ObservableObject {
+    var authState: OIDAuthState?
+
+    func tokenExchange(authorizationCode: String, completion: @escaping (Result<String, Error>) -> Void) {
+        
+        let tokenRequest = OIDTokenRequest(
+            configuration: authState?.lastAuthorizationResponse.request.configuration ?? OIDServiceConfiguration(authorizationEndpoint: URL(string: "https://5f68-203-94-95-4.ngrok-free.app/oauth2/authorize")!, tokenEndpoint: URL(string: "https://5f68-203-94-95-4.ngrok-free.app/oauth2/token")!),
+            grantType: OIDGrantTypeAuthorizationCode,
+            authorizationCode: authorizationCode,
+            redirectURL: URL(string: "https://example-app.com/redirect")!,
+            clientID: "HRzfEMITIZYufRjsPCQCUXfK4M0a",
+            clientSecret: nil,
+            scopes: nil,
+            refreshToken: nil,
+            codeVerifier: nil,
+            additionalParameters: nil
+        )
+
+        // Perform the token request
+        OIDAuthorizationService.perform(tokenRequest) { response, error in
+            if let tokenResponse = response {
+                // Token request successful, handle the response
+                self.authState?.update(with: tokenResponse, error: error)
+                if let accessToken = tokenResponse.accessToken {
+                    completion(.success(accessToken))
+                } else {
+                    completion(.failure(NSError(domain: "AuthService", code: 0, userInfo: [NSLocalizedDescriptionKey: "Access token is nil"])))
+                }
+            } else if let error = error {
+                // Handle error
+                completion(.failure(error))
+            }
+        }
+    }
 }
 
 class SharedDataObject: ObservableObject {
     
     @Published var flowResponse: FlowResponse?
+    @Published var authService = AuthService()
     
     init(flowResponse: FlowResponse? = nil) {
-            self.flowResponse = flowResponse
-        }
+        
+        self.flowResponse = flowResponse
+    }
 }
 
 struct ContentView: View {
@@ -71,11 +111,12 @@ struct ContentView: View {
     var body: some View {
         
         switch currentScreen {
-        case .initialSignIn:
-            InitialSignInView(sharedData: sharedData, currentScreen: $currentScreen)
-        case .authenticators:
-            AuthenticatorsView(sharedData: sharedData, currentScreen: $currentScreen)
-            
+            case .initialSignIn:
+                InitialSignInView(sharedData: sharedData, currentScreen: $currentScreen)
+            case .authenticators:
+                AuthenticatorsView(sharedData: sharedData, currentScreen: $currentScreen)
+            case .profile:
+                ProfileView(sharedData: sharedData, currentScreen: $currentScreen)
         }
     }
 }
@@ -213,6 +254,20 @@ struct InitialSignInView : View {
         }
     }
 
+}
+
+struct ProfileView : View {
+    
+    @ObservedObject var sharedData: SharedDataObject
+    @State private var isLoading = true
+    @State private var error: Error?
+    @Binding var currentScreen: Screen
+    
+    var body: some View {
+        VStack {
+            Text("Profile")
+        }
+    }
 }
 
 struct AuthenticatorsView : View {
@@ -503,6 +558,14 @@ struct TOTPView : View {
                                         case .authn(let authnData):
                                             // Handle AuthnResponse here
                                             print("Received AuthnResponse: \(authnData)")
+                                            sharedData.authService.tokenExchange(authorizationCode: authnData.code, completion: { result in
+                                                switch result {
+                                                    case .success(_) :
+                                                        currentScreen = .profile
+                                                    case .failure(_):
+                                                        currentScreen = .initialSignIn
+                                                }
+                                            })
                                         case .flow(let flowData):
                                             // Handle FlowResponse here
                                             print("Received FlowResponse: \(flowData)")

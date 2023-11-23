@@ -11,6 +11,8 @@
 		1B7D44D02B0DD18800123059 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D44CF2B0DD18800123059 /* ContentView.swift */; };
 		1B7D44D22B0DD18900123059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D44D12B0DD18900123059 /* Assets.xcassets */; };
 		1B7D44D52B0DD18900123059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D44D42B0DD18900123059 /* Preview Assets.xcassets */; };
+		1B997EA82B0F70BB00699B75 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1B997EA72B0F70BB00699B75 /* AppAuth */; };
+		1B997EAA2B0F70BB00699B75 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1B997EA92B0F70BB00699B75 /* AppAuthCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B997EA82B0F70BB00699B75 /* AppAuth in Frameworks */,
+				1B997EAA2B0F70BB00699B75 /* AppAuthCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,10 @@
 			dependencies = (
 			);
 			name = "API based Authentication";
+			packageProductDependencies = (
+				1B997EA72B0F70BB00699B75 /* AppAuth */,
+				1B997EA92B0F70BB00699B75 /* AppAuthCore */,
+			);
 			productName = "API based Authentication";
 			productReference = 1B7D44CA2B0DD18800123059 /* API based Authentication.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +121,9 @@
 				Base,
 			);
 			mainGroup = 1B7D44C12B0DD18700123059;
+			packageReferences = (
+				1B997EA62B0F70BB00699B75 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+			);
 			productRefGroup = 1B7D44CB2B0DD18800123059 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,6 +362,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B997EA62B0F70BB00699B75 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B997EA72B0F70BB00699B75 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B997EA62B0F70BB00699B75 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		1B997EA92B0F70BB00699B75 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B997EA62B0F70BB00699B75 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B7D44C22B0DD18800123059 /* Project object */;
 }
