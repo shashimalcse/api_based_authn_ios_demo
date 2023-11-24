@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientId</key>
+	<string>HRzfEMITIZYufRjsPCQCUXfK4M0a</string>
+	<key>redirectURL</key>
+	<string>https://example-app.com/redirect</string>
+	<key>authorizeEndpoint</key>
+	<string>https://5f68-203-94-95-4.ngrok-free.app/oauth2/authorize</string>
+	<key>tokenEndpoint</key>
+	<string>https://5f68-203-94-95-4.ngrok-free.app/oauth2/token</string>
+	<key>logoutEndpoint</key>
+	<string>https://5f68-203-94-95-4.ngrok-free.app/oidc/logout</string>
+	<key>userInfoEndpoint</key>
+	<string>https://5f68-203-94-95-4.ngrok-free.app/oauth2/userinfo</string>
+	<key>authnEndpoint</key>
+	<string>https://5f68-203-94-95-4.ngrok-free.app/oauth2/authn</string>
+</dict>
+</plist>
