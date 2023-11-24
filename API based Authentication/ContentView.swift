@@ -73,9 +73,12 @@ enum Screen {
 class AuthService: ObservableObject {
     var authState: OIDAuthState?
     var authConfig: AuthConfig?
+    let authStateKey: String = "authState";
+    let suiteName: String = "suiteName"
     
     init(authState: OIDAuthState? = nil) {
         self.authState = authState
+        self.loadState()
         let configManager = ConfigManager()
         self.authConfig = configManager.readPlist(name: "AuthConfig", modelType: AuthConfig.self)
     }
@@ -98,9 +101,14 @@ class AuthService: ObservableObject {
         OIDAuthorizationService.perform(tokenRequest) { response, error in
             if let tokenResponse = response {
                 
-                self.authState?.update(with: tokenResponse, error: error)
+                if (self.authState != nil) {
+                    self.authState?.update(with: tokenResponse, error: error)
+                } else {
+                    self.authState = OIDAuthState(authorizationResponse: nil, tokenResponse: tokenResponse, registrationResponse: nil)
+                }
                 if let accessToken = tokenResponse.accessToken {
                     completion(.success(accessToken))
+                    self.saveState()
                 } else {
                     completion(.failure(NSError(domain: "AuthService", code: 0, userInfo: [NSLocalizedDescriptionKey: "Access token is nil"])))
                 }
@@ -142,9 +150,44 @@ class AuthService: ObservableObject {
     }
     
     private func clearAuthState() {
-        // Clear any local authentication state
+        
         authState = nil
-        // Also clear any stored tokens or other sensitive data
+        saveState()
+    }
+    
+    // Load authState in UserDefault
+    private func loadState() {
+        
+        guard let data = UserDefaults(suiteName: suiteName)?.object(forKey: authStateKey) as? Data else {
+            return
+        }
+        do {
+            if let authState = try NSKeyedUnarchiver.unarchivedObject(ofClass: OIDAuthState.self, from: data) {
+                self.authState =  authState
+            }
+        } catch {
+            
+        }
+    }
+        
+    
+    // Save authState in UserDefault
+    private func saveState() {
+            
+        var data: Data? = nil
+        
+        if let authState = authState {
+            do {
+                data = try NSKeyedArchiver.archivedData(withRootObject: authState, requiringSecureCoding: false)
+            } catch {
+                
+            }
+        }
+        
+        if let userDefaults = UserDefaults(suiteName: suiteName) {
+            userDefaults.set(data, forKey: authStateKey)
+            userDefaults.synchronize()
+        }
     }
 }
 
@@ -170,14 +213,19 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             HStack {
-                switch currentScreen {
-                case .initialSignIn:
-                    InitialSignInView(sharedData: sharedData, currentScreen: $currentScreen)
-                case .authenticators:
-                    AuthenticatorsView(sharedData: sharedData, currentScreen: $currentScreen)
-                case .profile:
+                if (sharedData.authService.authState != nil) {
                     ProfileView(sharedData: sharedData, currentScreen: $currentScreen)
+                } else {
+                    switch currentScreen {
+                        case .initialSignIn:
+                            InitialSignInView(sharedData: sharedData, currentScreen: $currentScreen)
+                        case .authenticators:
+                            AuthenticatorsView(sharedData: sharedData, currentScreen: $currentScreen)
+                        case .profile:
+                            ProfileView(sharedData: sharedData, currentScreen: $currentScreen)
+                    }
                 }
+
             }
             if sharedData.showErrorCard {
                 ErrorCardView(message: sharedData.errorMessage ?? "Error occured!")

@@ -7,6 +7,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>com.wso2.attestationApp://provider</string>
 				<string>com.googleusercontent.apps.1005693584100-c1pk9fpafst2v6n8jnus85vh13rk50ai</string>
 			</array>
 		</dict>

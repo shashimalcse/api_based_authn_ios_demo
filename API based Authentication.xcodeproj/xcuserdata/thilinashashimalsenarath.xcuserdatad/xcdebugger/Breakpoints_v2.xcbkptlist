@@ -14,8 +14,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "395"
-            endingLineNumber = "395"
+            startingLineNumber = "443"
+            endingLineNumber = "443"
             landmarkName = "init(sharedData:currentScreen:)"
             landmarkType = "7">
             <Locations>
@@ -77,8 +77,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "392"
-            endingLineNumber = "392"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
             landmarkName = "init(sharedData:currentScreen:)"
             landmarkType = "7">
             <Locations>
@@ -155,8 +155,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "406"
-            endingLineNumber = "406"
+            startingLineNumber = "454"
+            endingLineNumber = "454"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -218,8 +218,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "393"
-            endingLineNumber = "393"
+            startingLineNumber = "441"
+            endingLineNumber = "441"
             landmarkName = "init(sharedData:currentScreen:)"
             landmarkType = "7">
             <Locations>
@@ -266,8 +266,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "591"
-            endingLineNumber = "591"
+            startingLineNumber = "639"
+            endingLineNumber = "639"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,8 +282,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "tokenExchange(authorizationCode:completion:)"
             landmarkType = "7">
             <Locations>
@@ -353,69 +353,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AD7B6B98-A4EF-473F-925A-797F8EDDDDBA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "API based Authentication/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "tokenExchange(authorizationCode:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AD7B6B98-A4EF-473F-925A-797F8EDDDDBA - 69742b2c6c5fb920"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDTokenResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.AuthService.tokenExchange(authorizationCode: Swift.String) -&gt; ()"
-                  moduleName = "API based Authentication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "424">
-               </Location>
-               <Location
-                  uuid = "AD7B6B98-A4EF-473F-925A-797F8EDDDDBA - 44f99abb18a358b0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDTokenResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.AuthService.tokenExchange(authorizationCode: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "API based Authentication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "AD7B6B98-A4EF-473F-925A-797F8EDDDDBA - 44f99abb18a358b0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDTokenResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.AuthService.tokenExchange(authorizationCode: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "API based Authentication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "184">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "282C9CD6-AD29-40E2-9FBA-185081851FA9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -423,8 +360,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "361"
-            endingLineNumber = "361"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -433,19 +370,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FC7F191F-47D5-4BC6-9B14-8EAA72889C20"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
             landmarkName = "logout(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FC7F191F-47D5-4BC6-9B14-8EAA72889C20 - 144f159c39c7ce64"
+                  uuid = "FC7F191F-47D5-4BC6-9B14-8EAA72889C20 - 144f159c39c7cddb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -455,12 +392,12 @@
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "130"
-                  endingLineNumber = "130"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
                   offsetFromSymbolStart = "152">
                </Location>
                <Location
-                  uuid = "FC7F191F-47D5-4BC6-9B14-8EAA72889C20 - 144f159c39c7ce64"
+                  uuid = "FC7F191F-47D5-4BC6-9B14-8EAA72889C20 - 144f159c39c7cd7c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -470,8 +407,8 @@
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "130"
-                  endingLineNumber = "130"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
                   offsetFromSymbolStart = "72">
                </Location>
             </Locations>
@@ -487,8 +424,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "872"
-            endingLineNumber = "872"
+            startingLineNumber = "920"
+            endingLineNumber = "920"
             landmarkName = "signIn(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -503,8 +440,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "808"
-            endingLineNumber = "808"
+            startingLineNumber = "856"
+            endingLineNumber = "856"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -566,8 +503,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "890"
-            endingLineNumber = "890"
+            startingLineNumber = "938"
+            endingLineNumber = "938"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -582,8 +519,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "910"
-            endingLineNumber = "910"
+            startingLineNumber = "958"
+            endingLineNumber = "958"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
@@ -630,8 +567,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "914"
-            endingLineNumber = "914"
+            startingLineNumber = "962"
+            endingLineNumber = "962"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
@@ -678,8 +615,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "919"
-            endingLineNumber = "919"
+            startingLineNumber = "967"
+            endingLineNumber = "967"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
@@ -741,8 +678,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "924"
-            endingLineNumber = "924"
+            startingLineNumber = "972"
+            endingLineNumber = "972"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -757,8 +694,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "920"
-            endingLineNumber = "920"
+            startingLineNumber = "968"
+            endingLineNumber = "968"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
@@ -820,8 +757,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "923"
-            endingLineNumber = "923"
+            startingLineNumber = "971"
+            endingLineNumber = "971"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -836,42 +773,10 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "582"
-            endingLineNumber = "582"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C70D559D-58C2-4B2D-9E6C-820E3CB1B168 - a5e321325b02ae28"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.BasicAuthView.sendAuthnRequest(authnRequestData: API_based_Authentication.BasicAuthAuthnRequestData, completion: (Swift.Result&lt;API_based_Authentication.AuthnOrFlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "API based Authentication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "582"
-                  endingLineNumber = "582"
-                  offsetFromSymbolStart = "2060">
-               </Location>
-               <Location
-                  uuid = "C70D559D-58C2-4B2D-9E6C-820E3CB1B168 - a5e321325b02ae28"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.BasicAuthView.sendAuthnRequest(authnRequestData: API_based_Authentication.BasicAuthAuthnRequestData, completion: (Swift.Result&lt;API_based_Authentication.AuthnOrFlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "API based Authentication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "582"
-                  endingLineNumber = "582"
-                  offsetFromSymbolStart = "1196">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -884,8 +789,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "911"
-            endingLineNumber = "911"
+            startingLineNumber = "959"
+            endingLineNumber = "959"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
@@ -932,13 +837,13 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "926"
-            endingLineNumber = "926"
+            startingLineNumber = "974"
+            endingLineNumber = "974"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - e1df844ebc40758"
+                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - e1df844ebc4098b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -948,12 +853,12 @@
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "928"
-                  endingLineNumber = "928"
-                  offsetFromSymbolStart = "1572">
+                  startingLineNumber = "973"
+                  endingLineNumber = "973"
+                  offsetFromSymbolStart = "1504">
                </Location>
                <Location
-                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - 39c557dea97d5f98"
+                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - 39c557dea97d514b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -963,12 +868,12 @@
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "928"
-                  endingLineNumber = "928"
+                  startingLineNumber = "973"
+                  endingLineNumber = "973"
                   offsetFromSymbolStart = "2036">
                </Location>
                <Location
-                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - 39c557dea97d5f5a"
+                  uuid = "08F14594-D71D-4DC9-A7FC-0FA0C9B017A4 - 39c557dea97d51aa"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -978,8 +883,8 @@
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "926"
-                  endingLineNumber = "926"
+                  startingLineNumber = "974"
+                  endingLineNumber = "974"
                   offsetFromSymbolStart = "2996">
                </Location>
             </Locations>
@@ -995,8 +900,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "912"
-            endingLineNumber = "912"
+            startingLineNumber = "960"
+            endingLineNumber = "960"
             landmarkName = "sendAuthnRequest(authnRequestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1011,8 +916,8 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "824"
-            endingLineNumber = "824"
+            startingLineNumber = "872"
+            endingLineNumber = "872"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -1027,42 +932,425 @@
             filePath = "API based Authentication/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "init(authState:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4169086A-4C9A-469C-AF79-B631B55F5B73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8219D35-4AA7-4C04-B3B0-3E48805C2919"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "loadState()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3FB0EA4-A860-4CF3-945B-DB8EC66A3F99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "loadState()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FB1A5A4-DAB3-4CB8-BDEF-7A118FA94587"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "saveState()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17E06FEC-549E-44A6-B5CC-15F78A79B208"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "saveState()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "808CCB2C-F9EB-45C3-886F-B217239CE02E - f17336329046057a"
+                  uuid = "17E06FEC-549E-44A6-B5CC-15F78A79B208 - 753e69b8c45e9345"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "API_based_Authentication.AuthService.init(authState: Swift.Optional&lt;__C.OIDAuthState&gt;) -&gt; API_based_Authentication.AuthService"
+                  symbolName = "API_based_Authentication.AuthService.saveState() -&gt; ()"
                   moduleName = "API based Authentication"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "580">
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "324">
                </Location>
                <Location
-                  uuid = "808CCB2C-F9EB-45C3-886F-B217239CE02E - f17336329046057a"
+                  uuid = "17E06FEC-549E-44A6-B5CC-15F78A79B208 - 753e69b8c45e9345"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "API_based_Authentication.AuthService.init(authState: Swift.Optional&lt;__C.OIDAuthState&gt;) -&gt; API_based_Authentication.AuthService"
+                  symbolName = "API_based_Authentication.AuthService.saveState() -&gt; ()"
                   moduleName = "API based Authentication"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "264">
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "17E06FEC-549E-44A6-B5CC-15F78A79B208 - 753e69b8c45e94d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "API_based_Authentication.AuthService.saveState() -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "124">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC8C7C7E-29E2-49B9-9A2A-FEFC48140F66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "tokenExchange(authorizationCode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF138C6B-7527-483A-A9BE-7E72D008A979"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
+            landmarkName = "sendAuthorizeRequest(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF138C6B-7527-483A-A9BE-7E72D008A979 - 9a186b91bfec3e5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.InitialSignInView.sendAuthorizeRequest(completion: (Swift.Result&lt;API_based_Authentication.FlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "351"
+                  endingLineNumber = "351"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "AF138C6B-7527-483A-A9BE-7E72D008A979 - 9a186b91bfec3ebb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.InitialSignInView.sendAuthorizeRequest(completion: (Swift.Result&lt;API_based_Authentication.FlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "354"
+                  endingLineNumber = "354"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3C4C167-F701-4951-A829-3874FCDB823E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "sendAuthorizeRequest(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3C4C167-F701-4951-A829-3874FCDB823E - 9a186b91bfec3f82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.InitialSignInView.sendAuthorizeRequest(completion: (Swift.Result&lt;API_based_Authentication.FlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "361"
+                  endingLineNumber = "361"
+                  offsetFromSymbolStart = "1768">
+               </Location>
+               <Location
+                  uuid = "F3C4C167-F701-4951-A829-3874FCDB823E - 9a186b91bfec3fe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.InitialSignInView.sendAuthorizeRequest(completion: (Swift.Result&lt;API_based_Authentication.FlowResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "364"
+                  endingLineNumber = "364"
+                  offsetFromSymbolStart = "1564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D562708E-8736-4EB7-9E60-A7035D1AE996"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "tokenExchange(authorizationCode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EDC346D-FB3E-4475-9EF7-1A8D53627B35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "tokenExchange(authorizationCode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42127512-2D09-4F5C-A364-D4A1CF2016DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
+            landmarkName = "sendAuthorizeRequest(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DB9D08D-1BCF-4D17-8478-C9A7345DA628"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "logout(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DB9D08D-1BCF-4D17-8478-C9A7345DA628 - ca726704d3ac7ab3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "API_based_Authentication.AuthService.logout(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "3044">
+               </Location>
+               <Location
+                  uuid = "2DB9D08D-1BCF-4D17-8478-C9A7345DA628 - 144f159c39c7cd7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.OIDEndSessionResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in API_based_Authentication.AuthService.logout(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E452EAC8-CF8E-4201-92F3-2335EF132D65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "logout(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E452EAC8-CF8E-4201-92F3-2335EF132D65 - ca726704d3ac79ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "API_based_Authentication.AuthService.logout(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "2632">
+               </Location>
+               <Location
+                  uuid = "E452EAC8-CF8E-4201-92F3-2335EF132D65 - 6d597b78fc5a67e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIWindow) -&gt; Swift.Bool in API_based_Authentication.AuthService.logout(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "API based Authentication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/API%20based%20Authentication/API%20based%20Authentication/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B10354A-C3B4-49CD-B614-F6D8520F3668"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "logout(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCDDE76F-E9C2-4056-9C0B-69EBB87516C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "API based Authentication/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "logout(completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
